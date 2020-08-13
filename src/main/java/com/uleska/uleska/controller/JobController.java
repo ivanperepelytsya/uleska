@@ -38,11 +38,4 @@ public class JobController {
         return jobService.getJob(jobId);
     }
 
-
-
-    /*
-● Check status of running/paused jobs which may include results/metrics
-● Delete jobs, removing the schedule status information
-     */
-
 }
